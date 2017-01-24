@@ -77,6 +77,7 @@
 		EE8514CA1E37C6E0007E4055 = {
 			isa = PBXGroup;
 			children = (
+				EE8515041E37C9CE007E4055 /* Resources */,
 				EE8514D51E37C6E1007E4055 /* TxTy ios */,
 				EE8514EA1E37C6E1007E4055 /* TxTy iosTests */,
 				EE8514F51E37C6E1007E4055 /* TxTy iosUITests */,
@@ -123,6 +124,21 @@
 				EE8514F81E37C6E1007E4055 /* Info.plist */,
 			);
 			path = "TxTy iosUITests";
+			sourceTree = "<group>";
+		};
+		EE8515041E37C9CE007E4055 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE8515051E37C9DF007E4055 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EE8515051E37C9DF007E4055 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
