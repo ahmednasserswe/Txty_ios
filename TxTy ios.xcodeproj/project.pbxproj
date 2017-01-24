@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					EE8514D21E37C6E0007E4055 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = PBLU96KRD9;
 						ProvisioningStyle = Automatic;
 					};
 					EE8514E61E37C6E1007E4055 = {
@@ -410,7 +411,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PBLU96KRD9;
 				INFOPLIST_FILE = "TxTy ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ahmed.TxTy-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +425,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PBLU96KRD9;
 				INFOPLIST_FILE = "TxTy ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ahmed.TxTy-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
