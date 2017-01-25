@@ -12,7 +12,9 @@ class CallLog: NSObject {
     var callMessage: String = ""
     var callId: String = ""
     var callDateString: String = ""
+    var callReceived: Bool = false
     var callDate : Date?
+    var callerInfo : CallerInfo?
     override init() {
         super.init()
     }

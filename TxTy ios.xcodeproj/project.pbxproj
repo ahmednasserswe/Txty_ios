@@ -22,6 +22,9 @@
 		EE8515121E383739007E4055 /* CallLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8515111E383739007E4055 /* CallLog.swift */; };
 		EE8515141E38381E007E4055 /* CallerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8515131E38381E007E4055 /* CallerInfo.swift */; };
 		EEBE85091E38E45200473074 /* CompleteRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBE85081E38E45200473074 /* CompleteRegistrationViewController.swift */; };
+		EEBE85101E38EBDC00473074 /* CallsLogRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBE850F1E38EBDC00473074 /* CallsLogRouter.swift */; };
+		EEBE85121E38EE9400473074 /* CallsLogDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBE85111E38EE9400473074 /* CallsLogDataManager.swift */; };
+		EEBE85151E38EFD100473074 /* CallsLogMockup.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBE85141E38EFD100473074 /* CallsLogMockup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,9 @@
 		EE8515111E383739007E4055 /* CallLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallLog.swift; sourceTree = "<group>"; };
 		EE8515131E38381E007E4055 /* CallerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallerInfo.swift; sourceTree = "<group>"; };
 		EEBE85081E38E45200473074 /* CompleteRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteRegistrationViewController.swift; sourceTree = "<group>"; };
+		EEBE850F1E38EBDC00473074 /* CallsLogRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallsLogRouter.swift; sourceTree = "<group>"; };
+		EEBE85111E38EE9400473074 /* CallsLogDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallsLogDataManager.swift; sourceTree = "<group>"; };
+		EEBE85141E38EFD100473074 /* CallsLogMockup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallsLogMockup.swift; sourceTree = "<group>"; };
 		F54CEF8938E91ED670BA635F /* Pods-TxTy iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TxTy iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TxTy iosTests/Pods-TxTy iosTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,16 +154,13 @@
 		EE8514D51E37C6E1007E4055 /* TxTy ios */ = {
 			isa = PBXGroup;
 			children = (
+				EEBE850C1E38EB7800473074 /* API */,
+				EEBE850B1E38EB6100473074 /* Storyboards */,
+				EEBE850A1E38EB4800473074 /* View Controllers */,
 				EE8515101E38371F007E4055 /* Models */,
 				EE8514D61E37C6E1007E4055 /* AppDelegate.swift */,
-				EE8514D81E37C6E1007E4055 /* ViewController.swift */,
-				EE8514DA1E37C6E1007E4055 /* Main.storyboard */,
 				EE8514DD1E37C6E1007E4055 /* Assets.xcassets */,
-				EE8514DF1E37C6E1007E4055 /* LaunchScreen.storyboard */,
 				EE8514E21E37C6E1007E4055 /* Info.plist */,
-				EE85150A1E382AB0007E4055 /* CallLogCell.swift */,
-				EE85150C1E382C35007E4055 /* CallsLogViewController.swift */,
-				EEBE85081E38E45200473074 /* CompleteRegistrationViewController.swift */,
 			);
 			path = "TxTy ios";
 			sourceTree = "<group>";
@@ -202,6 +205,60 @@
 				EE8515131E38381E007E4055 /* CallerInfo.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		EEBE850A1E38EB4800473074 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE85150A1E382AB0007E4055 /* CallLogCell.swift */,
+				EE85150C1E382C35007E4055 /* CallsLogViewController.swift */,
+				EEBE85081E38E45200473074 /* CompleteRegistrationViewController.swift */,
+				EE8514D81E37C6E1007E4055 /* ViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EEBE850B1E38EB6100473074 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EE8514DA1E37C6E1007E4055 /* Main.storyboard */,
+				EE8514DF1E37C6E1007E4055 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		EEBE850C1E38EB7800473074 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				EEBE85131E38EFB300473074 /* Mockups */,
+				EEBE850E1E38EB8C00473074 /* Data Managers */,
+				EEBE850D1E38EB8400473074 /* Routers */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		EEBE850D1E38EB8400473074 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				EEBE850F1E38EBDC00473074 /* CallsLogRouter.swift */,
+			);
+			name = Routers;
+			sourceTree = "<group>";
+		};
+		EEBE850E1E38EB8C00473074 /* Data Managers */ = {
+			isa = PBXGroup;
+			children = (
+				EEBE85111E38EE9400473074 /* CallsLogDataManager.swift */,
+			);
+			name = "Data Managers";
+			sourceTree = "<group>";
+		};
+		EEBE85131E38EFB300473074 /* Mockups */ = {
+			isa = PBXGroup;
+			children = (
+				EEBE85141E38EFD100473074 /* CallsLogMockup.swift */,
+			);
+			name = Mockups;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -470,7 +527,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEBE85121E38EE9400473074 /* CallsLogDataManager.swift in Sources */,
+				EEBE85151E38EFD100473074 /* CallsLogMockup.swift in Sources */,
 				EE8514D91E37C6E1007E4055 /* ViewController.swift in Sources */,
+				EEBE85101E38EBDC00473074 /* CallsLogRouter.swift in Sources */,
 				EE8515121E383739007E4055 /* CallLog.swift in Sources */,
 				EE8515141E38381E007E4055 /* CallerInfo.swift in Sources */,
 				EE85150B1E382AB0007E4055 /* CallLogCell.swift in Sources */,
