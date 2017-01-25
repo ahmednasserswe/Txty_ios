@@ -27,3 +27,20 @@ post_install do |installer|
         end
     end
 end
+
+
+# Example of the libraries I use
+# Fabric
+#def global_frameworks
+#pod 'SwiftCharts' #data visualization for Swift (amazing lib)
+#pod 'AlamofireImage'
+#pod 'Bond' #binding framework
+#pod 'MBProgressHUD'
+#pod 'Eureka' #building forms easily
+#pod 'SwiftyBeaver' #cloud logging - helpful with debuging and crash detective
+#pod 'Fabric'  # Crash reporting. But I prefer Instabug (because I know the guys behind it :D)
+#pod 'Instabug'
+#pod 'TwitterKit'#of course the usual twitter/fb/google kits
+#pod 'TwitterCore'
+#pod 'Google/SignIn'
+end
