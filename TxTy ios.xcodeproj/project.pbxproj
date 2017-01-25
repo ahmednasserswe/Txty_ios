@@ -21,6 +21,7 @@
 		EE85150D1E382C35007E4055 /* CallsLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE85150C1E382C35007E4055 /* CallsLogViewController.swift */; };
 		EE8515121E383739007E4055 /* CallLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8515111E383739007E4055 /* CallLog.swift */; };
 		EE8515141E38381E007E4055 /* CallerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8515131E38381E007E4055 /* CallerInfo.swift */; };
+		EEBE85091E38E45200473074 /* CompleteRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBE85081E38E45200473074 /* CompleteRegistrationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		EE85150C1E382C35007E4055 /* CallsLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallsLogViewController.swift; sourceTree = "<group>"; };
 		EE8515111E383739007E4055 /* CallLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallLog.swift; sourceTree = "<group>"; };
 		EE8515131E38381E007E4055 /* CallerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallerInfo.swift; sourceTree = "<group>"; };
+		EEBE85081E38E45200473074 /* CompleteRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteRegistrationViewController.swift; sourceTree = "<group>"; };
 		F54CEF8938E91ED670BA635F /* Pods-TxTy iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TxTy iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TxTy iosTests/Pods-TxTy iosTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +157,7 @@
 				EE8514E21E37C6E1007E4055 /* Info.plist */,
 				EE85150A1E382AB0007E4055 /* CallLogCell.swift */,
 				EE85150C1E382C35007E4055 /* CallsLogViewController.swift */,
+				EEBE85081E38E45200473074 /* CompleteRegistrationViewController.swift */,
 			);
 			path = "TxTy ios";
 			sourceTree = "<group>";
@@ -471,6 +474,7 @@
 				EE8515121E383739007E4055 /* CallLog.swift in Sources */,
 				EE8515141E38381E007E4055 /* CallerInfo.swift in Sources */,
 				EE85150B1E382AB0007E4055 /* CallLogCell.swift in Sources */,
+				EEBE85091E38E45200473074 /* CompleteRegistrationViewController.swift in Sources */,
 				EE8514D71E37C6E1007E4055 /* AppDelegate.swift in Sources */,
 				EE85150D1E382C35007E4055 /* CallsLogViewController.swift in Sources */,
 			);
