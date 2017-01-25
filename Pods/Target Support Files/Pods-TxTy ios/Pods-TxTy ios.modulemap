@@ -1,0 +1,6 @@
+framework module Pods_TxTy_ios {
+  umbrella header "Pods-TxTy ios-umbrella.h"
+
+  export *
+  module * { export * }
+}
