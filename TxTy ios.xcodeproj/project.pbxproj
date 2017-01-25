@@ -16,6 +16,8 @@
 		EE8514F71E37C6E1007E4055 /* TxTy_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8514F61E37C6E1007E4055 /* TxTy_iosUITests.swift */; };
 		EE85150B1E382AB0007E4055 /* CallLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE85150A1E382AB0007E4055 /* CallLogCell.swift */; };
 		EE85150D1E382C35007E4055 /* CallsLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE85150C1E382C35007E4055 /* CallsLogViewController.swift */; };
+		EE8515121E383739007E4055 /* CallLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8515111E383739007E4055 /* CallLog.swift */; };
+		EE8515141E38381E007E4055 /* CallerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8515131E38381E007E4055 /* CallerInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		EE8514F81E37C6E1007E4055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE85150A1E382AB0007E4055 /* CallLogCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallLogCell.swift; sourceTree = "<group>"; };
 		EE85150C1E382C35007E4055 /* CallsLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallsLogViewController.swift; sourceTree = "<group>"; };
+		EE8515111E383739007E4055 /* CallLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallLog.swift; sourceTree = "<group>"; };
+		EE8515131E38381E007E4055 /* CallerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallerInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 		EE8514D51E37C6E1007E4055 /* TxTy ios */ = {
 			isa = PBXGroup;
 			children = (
+				EE8515101E38371F007E4055 /* Models */,
 				EE8514D61E37C6E1007E4055 /* AppDelegate.swift */,
 				EE8514D81E37C6E1007E4055 /* ViewController.swift */,
 				EE8514DA1E37C6E1007E4055 /* Main.storyboard */,
@@ -145,6 +150,15 @@
 			children = (
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		EE8515101E38371F007E4055 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE8515111E383739007E4055 /* CallLog.swift */,
+				EE8515131E38381E007E4055 /* CallerInfo.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,6 +297,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE8514D91E37C6E1007E4055 /* ViewController.swift in Sources */,
+				EE8515121E383739007E4055 /* CallLog.swift in Sources */,
+				EE8515141E38381E007E4055 /* CallerInfo.swift in Sources */,
 				EE85150B1E382AB0007E4055 /* CallLogCell.swift in Sources */,
 				EE8514D71E37C6E1007E4055 /* AppDelegate.swift in Sources */,
 				EE85150D1E382C35007E4055 /* CallsLogViewController.swift in Sources */,
