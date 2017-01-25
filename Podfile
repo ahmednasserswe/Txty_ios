@@ -6,7 +6,7 @@ target 'TxTy ios' do
   use_frameworks!
 
   # Pods for TxTy ios
-
+  pod 'Alamofire'
   target 'TxTy iosTests' do
     inherit! :search_paths
     # Pods for testing
@@ -17,4 +17,13 @@ target 'TxTy ios' do
     # Pods for testing
   end
 
+end
+
+# To resolve issue with "Use Legacey Swift" issue with XCode 8.2+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['SWIFT_VERSION'] = '3.0'
+        end
+    end
 end
