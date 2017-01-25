@@ -14,6 +14,7 @@
 		EE8514E11E37C6E1007E4055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8514DF1E37C6E1007E4055 /* LaunchScreen.storyboard */; };
 		EE8514EC1E37C6E1007E4055 /* TxTy_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8514EB1E37C6E1007E4055 /* TxTy_iosTests.swift */; };
 		EE8514F71E37C6E1007E4055 /* TxTy_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8514F61E37C6E1007E4055 /* TxTy_iosUITests.swift */; };
+		EE85150B1E382AB0007E4055 /* CallLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE85150A1E382AB0007E4055 /* CallLogCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EE8514F21E37C6E1007E4055 /* TxTy iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TxTy iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE8514F61E37C6E1007E4055 /* TxTy_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxTy_iosUITests.swift; sourceTree = "<group>"; };
 		EE8514F81E37C6E1007E4055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE85150A1E382AB0007E4055 /* CallLogCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallLogCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				EE8514DD1E37C6E1007E4055 /* Assets.xcassets */,
 				EE8514DF1E37C6E1007E4055 /* LaunchScreen.storyboard */,
 				EE8514E21E37C6E1007E4055 /* Info.plist */,
+				EE85150A1E382AB0007E4055 /* CallLogCell.swift */,
 			);
 			path = "TxTy ios";
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE8514D91E37C6E1007E4055 /* ViewController.swift in Sources */,
+				EE85150B1E382AB0007E4055 /* CallLogCell.swift in Sources */,
 				EE8514D71E37C6E1007E4055 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
